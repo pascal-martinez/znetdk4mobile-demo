@@ -1,5 +1,5 @@
 # ZnetDK for Mobile Demo
-This repository hosts the source code of the demo application published at (https://mobile.znetdk.fr/demo).
+This repository hosts the source code of the demo application published at https://mobile.znetdk.fr/demo
 
 ## Requirements
 [ZnetDK 4 Mobile](https://github.com/pascal-martinez/znetdk4mobile) is installed.
