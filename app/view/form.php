@@ -1,12 +1,12 @@
-<div class="w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme-l1">
     <h3><i class="fa fa-keyboard-o"></i> Form</h3>
     <p>Here is an example of form with <b>client-side</b> and <b>server-side</b> validation on <b>submit</b>.
         <br><b>Header is automatically hidden on scroll</b> by calling the <code><a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-header-autohideonscroll" target="_blank" rel="noopener">znetdkMobile.header.autoHideOnScroll()</a></code> method.
         <br>See <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-form" target="_blank" rel="noopener">Form JS API</a> and <a href="https://mobile.znetdk.fr/php-api#z4m-phpapi-validation" target="_blank" rel="noopener">Data Validation</a>.
     </p>
 </div>
-<form id="znetdkm-form-demo" class="w3-theme-light" data-zdk-submit="FeatureCtrl:formsubmit">
-    <div class="w3-section">        
+<form id="znetdkm-form-demo" class="w3-content w3-theme-light" data-zdk-submit="FeatureCtrl:formsubmit">
+    <div class="w3-section">
         <!-- RADIO -->
         <div><b>Radio buttons</b> <i class="fa fa-asterisk w3-text-red"></i></div>
         <div class="w3-small w3-text-dark-gray"><i>The Option 3 must be selected.</i></div>
@@ -37,7 +37,7 @@
         <!-- LIST -->
         <label><b>Multiple selection</b> <i class="fa fa-asterisk w3-text-red"></i><br>
             <span class="w3-small w3-text-dark-gray"><i>Select at least two values.</i></span><br>
-            <select class="w3-select w3-border w3-margin-bottom" name="my_multi_select[]" multiple required>            
+            <select class="w3-select w3-border w3-margin-bottom" name="my_multi_select[]" multiple required>
                 <option value="1">Selection #1</option>
                 <option value="2">Selection #2</option>
                 <option value="3">Selection #3</option>
@@ -58,6 +58,11 @@
         <label><b>Text area</b>
             <textarea class="w3-input w3-margin-bottom w3-border" name="my_textarea" rows="6" placeholder="Text on multiple lines..."></textarea>
         </label>
+        <div class="w3-bar w3-margin-bottom">
+            <button class="info w3-button w3-blue w3-bar-item" type="button"><i class="fa fa-info-circle"></i> Custom information message</button>
+            <button class="warn w3-button w3-yellow w3-bar-item" type="button"><i class="fa fa-warning"></i> Custom warning message</button>
+            <button class="error w3-button w3-red w3-bar-item" type="button"><i class="fa fa-times-circle"></i> Custom error message</button>
+        </div>
         <p class="w3-right" aria-hidden="true"><i class="fa fa-asterisk w3-text-red"></i> Required field</p>
         <!-- SUBMIT -->
         <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit"><i class="fa fa-check fa-lg"></i>&nbsp;Submit</button>
@@ -67,11 +72,26 @@
 <script>
 $('body').on('afterviewdisplay', function (event, viewId) {
     if (viewId === 'form') {
-        // Banner is auto hidden 
-        znetdkMobile.header.autoHideOnScroll(true);        
+        // Banner is auto hidden
+        znetdkMobile.header.autoHideOnScroll(true);
     } else {
         // Banner is no longer auto hidden
         znetdkMobile.header.autoHideOnScroll(false);
     }
-});    
+});
+$('#znetdkm-form-demo button.info').on('click', function(){
+    const formObj = z4m.form.make('#znetdkm-form-demo');
+    formObj.hideError();
+    formObj.showInfo('My custom information message.', false, true);
+});
+$('#znetdkm-form-demo button.warn').on('click', function(){
+    const formObj = z4m.form.make('#znetdkm-form-demo');
+    formObj.hideError();
+    formObj.showInfo('My custom warning message.', true, true);
+});
+$('#znetdkm-form-demo button.error').on('click', function(){
+    const formObj = z4m.form.make('#znetdkm-form-demo');
+    formObj.hideInfo();
+    formObj.showError('My custom error message.', null, true);
+});
 </script>

@@ -1,8 +1,8 @@
-<div class="w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme-l1">
     <h3><i class="fa fa-upload"></i> Upload</h3>
     <p>Here is an example of using the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-form" target="_blank" rel="noopener">Form JS API</a> with <strong>multiple files uploaded</strong> in AJAX.</p>
 </div>
-<form id="znetdkm-upload-demo" class="w3-theme-light" novalidate data-zdk-submit="featurectrl:upload">
+<form id="znetdkm-upload-demo" class="w3-content w3-theme-light" novalidate data-zdk-submit="featurectrl:upload">
     <div class="w3-section">
         <label>
             <b>Files to upload</b> <i class="fa fa-asterisk w3-text-red"></i>

@@ -1,12 +1,12 @@
-<div class="w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme-l1">
     <h3><i class="fa fa-i-cursor fa-fw"></i> Autocomplete</h3>
     <p>This view shows a demonstration of the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-autocomplete" target="_blank" rel="noopener">Autocomplete JS API</a>.</p>
 </div>
-<div>
+<div class="w3-content">
     <input id="my-person-autocomplete" class="w3-input w3-border"
            type="search" placeholder="Enter the name of the person...">
 </div>
-<form id="my-person-autocomplete-form" class="w3-container w3-card-4 w3-theme-light w3-text-theme w3-margin-top">
+<form id="my-person-autocomplete-form" class="w3-content w3-container w3-card-4 w3-theme-light w3-text-theme w3-margin-top">
     <div class="w3-row w3-section">
         <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
         <div class="w3-rest">

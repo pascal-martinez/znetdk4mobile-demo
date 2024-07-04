@@ -1,9 +1,9 @@
-<div class="w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme-l1">
     <h3><i class="fa fa-hand-pointer-o"></i> Action buttons</h3>
     <p>Action buttons are color rounded buttons displayed at the bottom right of the View area (see <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-buttons" target="_blank" rel="noopener">Action buttons</a>).</p>
 </div>
 <div class="w3-padding-16 w3-hide-small"></div>
-<div id="show-action-button">
+<div id="show-action-button" class="w3-content">
     <button class="w3-btn w3-section w3-mobile w3-red" data-type="add"><i class="fa fa-plus fa-lg"></i>&nbsp;Toggle Add button</button>
     <button class="w3-btn w3-section w3-mobile w3-green" data-type="refresh"><i class="fa fa-refresh fa-lg"></i>&nbsp;Toggle Refresh button</button>
     <button class="w3-btn w3-section w3-mobile w3-blue" data-type="search"><i class="fa fa-search fa-lg"></i>&nbsp;Toggle Search button</button>
