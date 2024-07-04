@@ -1,7 +1,7 @@
 <?php
 /**
 * ZnetDK, Starter Web Application for rapid & easy development
-* See official website http://www.znetdk.fr 
+* See official website http://www.znetdk.fr
 * ------------------------------------------------------------
 * Custom parameters of the application
 * YOU CAN FREELY CUSTOMIZE THE CONTENT OF THIS FILE
@@ -10,7 +10,7 @@
 /** Default selected language when the browser language is not supported by the
  * application
  * @return string 2-character code in ISO 639-1, for example 'fr'
- */ 
+ */
 define('CFG_DEFAULT_LANGUAGE','en');
 
 /** Page layout chosen for the application.
@@ -20,7 +20,7 @@ define('CFG_DEFAULT_LANGUAGE','en');
 define('CFG_PAGE_LAYOUT', 'mobile');
 
 /** Relative path or URL of the W3CSS theme file */
-//define('CFG_MOBILE_W3CSS_THEME','https://www.w3schools.com/lib/w3-theme-blue-grey.css');
+define('CFG_MOBILE_W3CSS_THEME','applications/'.ZNETDK_APP_NAME.'/public/css/w3-theme-demo.css');
 
 /**
  * Relative path or URL of the CSS font file to include into the header of the
@@ -48,7 +48,7 @@ define('CFG_AUTHENT_REQUIRED',FALSE);
 
 /** Specifies whether the user session expires or not
  * @return 'public'|'private' When set to 'public', the user session expires.
- * <br>When set to 'private', the user session never expires.    
+ * <br>When set to 'private', the user session never expires.
  */
 define('CFG_SESSION_DEFAULT_MODE','public');
 
