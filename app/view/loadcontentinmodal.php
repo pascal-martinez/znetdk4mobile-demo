@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-window-maximize"></i> View in modal</h3>
     <p>By clicking the button below, a text content is loaded dynamically in AJAX and shown in a modal dialog (see <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-modal" target="_blank" rel="noopener">Modal Dialog JS API</a>).</p>
 </div>

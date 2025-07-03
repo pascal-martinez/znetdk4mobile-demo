@@ -1,5 +1,11 @@
+<style>
+    body[data-theme="dark"] #znetdk-demo2-view .w3-white {
+        background-color: var(--z4m-dark-24)!important;
+        color: #FFF!important;
+    }
+</style>
 <!-- Page Container -->
-<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+<div class="w3-container w3-content w3-margin-top">    
   <!-- The Grid -->
   <div class="w3-row">
     <!-- Left Column -->
@@ -165,7 +171,7 @@
           <p>Friend Request</p>
           <img src="https://www.w3schools.com/w3images/avatar6.png" alt="Avatar" style="width:50%"><br>
           <span>Jane Doe</span>
-          <div class="w3-row w3-opacity">
+          <div class="w3-row">
             <div class="w3-half">
               <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
             </div>

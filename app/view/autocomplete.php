@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-i-cursor fa-fw"></i> Autocomplete</h3>
     <p>This view shows a demonstration of the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-autocomplete" target="_blank" rel="noopener">Autocomplete JS API</a>.</p>
 </div>

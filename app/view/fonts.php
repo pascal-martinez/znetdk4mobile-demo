@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-font"></i> Fonts</h3>
     <p>Customize the <strong>font</strong> of your application by choosing a <a href="https://fonts.google.com" target="_blank" rel="noopener">Google Fonts</a>.</p>
     <p>Set your font by configuring the <a href="https://mobile.znetdk.fr/settings#z4m-settings-theming-font" target="_blank" rel="noopener"><code>CFG_MOBILE_CSS_FONT</code></a> and <a href="https://mobile.znetdk.fr/settings#z4m-settings-theming-font-family" target="_blank" rel="noopener"><code>CFG_MOBILE_CSS_FONT_FAMILY</code></a> PHP constants in the <a href="https://mobile.znetdk.fr/settings#z4m-settings-theming" target="_blank" rel="noopener"><code>config.php</code></a> script of your application.</p>

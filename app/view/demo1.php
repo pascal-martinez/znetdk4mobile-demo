@@ -1,3 +1,9 @@
+<style>
+    body[data-theme="dark"] #znetdk-demo1-view .w3-white {
+        background-color: var(--z4m-dark-24)!important;
+        color: #FFF!important;
+    }
+</style>
   <!-- Header -->
   <header class="w3-container" style="padding-top:22px">
     <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
@@ -116,7 +122,7 @@
 
   <div class="w3-container">
     <h5>Countries</h5>
-    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+    <table class="w3-table-all w3-hoverable">
       <tr>
         <td>United States</td>
         <td>65%</td>

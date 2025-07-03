@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-anchor"></i> Anchors</h3>
     <p>Click the link below to go the anchor #3. The anchor is display by calling the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-content-gotoanchor" target="_blank" rel="noopener">znetdkMobile.content.goToAnchor()</a> JS method.</p>
 </div>

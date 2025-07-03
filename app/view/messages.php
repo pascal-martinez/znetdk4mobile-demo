@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-comment-o"></i> Messages</h3>
     <p>Click on a button below to show the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-messages" target="_blank" rel="noopener">Messages JS API</a> in action.</p>
 </div>

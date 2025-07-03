@@ -2,7 +2,7 @@
 /* Set 'PersonDbCtrl' value for accessing data from database */
 $personCtrl = 'PersonCtrl';
 ?>
-<div class="w3-panel w3-theme-l1">
+<div class="w3-panel w3-theme">
     <h3><i class="fa fa-address-card-o"></i> Persons</h3>
     <p>Here is an example of a <strong>list of persons</strong> created with the help of the <a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-datalist" target="_blank" rel="noopener">Data List JS API</a>.</p>
 </div>
@@ -16,21 +16,19 @@ $personCtrl = 'PersonCtrl';
             </div>
             <div class="w3-rest w3-row">
                 <div class="w3-col s12 m12 l3 w3-padding-small">
-                    <span class="w3-tag w3-theme-d1">{{id}}</span>
-                    <span class="w3-text-theme w3-large"><strong>{{name}}</strong></span>
+                    <span class="w3-tag w3-theme">{{id}}</span>
+                    <span class="w3-large"><strong>{{name}}</strong></span>
                 </div>
                 <div class="w3-col s12 m6 l3 w3-padding-small">
                     <i class="w3-text-theme fa fa-map-signs fa-lg"></i>&nbsp;<span>{{zip}} - {{city}}</span>
                 </div>
                 <div class="w3-col s12 m6 l2 w3-padding-small">
-                    <a href="tel:{{phone}}">
-                        <i class="w3-text-theme fa fa-phone-square fa-lg"></i>&nbsp;<span>{{phone}}</span>
-                    </a>
+                    <i class="w3-text-theme fa fa-phone-square fa-lg"></i>
+                    <a href="tel:{{phone}}">{{phone}}</a>
                 </div>
                 <div class="w3-col s12 m12 l4 w3-padding-small">
-                    <a href="mailto:{{email}}">
-                        <i class="w3-text-theme fa fa-envelope fa-lg"></i>&nbsp;<span>{{email}}</span>
-                    </a>
+                    <i class="w3-text-theme fa fa-envelope fa-lg"></i>&nbsp;
+                    <a href="mailto:{{email}}">{{email}}</a>
                 </div>
             </div>
         </div>
@@ -40,7 +38,7 @@ $personCtrl = 'PersonCtrl';
 <!-- Modal dialog for adding and editing a Person -->
 <div id="person-modal" class="w3-modal">
     <div class="w3-modal-content w3-card-4">
-        <header class="w3-container w3-theme-d5">
+        <header class="w3-container w3-theme-dark">
             <span class="close w3-button w3-xlarge w3-hover-theme w3-display-topright"><i class="fa fa-times-circle fa-lg"></i></span>
             <h4 class="title">Person</h4>
         </header>

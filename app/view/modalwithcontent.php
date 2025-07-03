@@ -1,13 +1,13 @@
 <div id="modal-with-content" class="w3-modal">
     <div class="w3-modal-content w3-card-4">
-        <header class="w3-container w3-theme-d5">
+        <header class="w3-container w3-theme-dark">
             <span class="close w3-button w3-xlarge w3-hover-theme w3-display-topright"><i class="fa fa-times-circle fa-lg"></i></span>
             <h4>
                 <i class="fa fa-diamond fa-lg"></i>
                 <span class="title">Modal with content</span>
             </h4>
         </header>
-        <div class="w3-container">
+        <div class="w3-container w3-theme-light">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet ornare nulla ut varius. Etiam dui nulla, scelerisque eu pulvinar in, lacinia in purus. Praesent tempus vehicula turpis id semper. Praesent ultricies nisl purus, sit amet mattis turpis placerat pellentesque. Sed a consequat mi. Praesent id mauris ut tortor dapibus tempor id vitae magna. Sed suscipit diam a dapibus suscipit. Aliquam non mauris magna. Maecenas ac tortor ultricies lectus vestibulum convallis. Integer non mauris ac mi efficitur egestas. Nunc quis leo eget lectus imperdiet sollicitudin vitae vel augue. Sed et odio odio. Donec accumsan orci ut ullamcorper placerat. Donec ultrices erat id tempor commodo. Quisque at consectetur ex. Suspendisse nec augue at massa aliquam porttitor.</p>
             <p>Phasellus venenatis, velit in luctus tincidunt, diam eros ultricies elit, sit amet fringilla libero quam nec urna. Etiam at mi maximus, maximus enim vel, consequat mauris. Pellentesque nec odio est. Quisque vel pharetra enim, id mollis tellus. Nullam et ultrices elit. In lorem leo, pellentesque nec lectus quis, venenatis gravida purus. Vestibulum egestas libero at ultrices congue. Sed eget urna sed ex dictum sollicitudin. Suspendisse quis molestie nisi, at malesuada sapien. Mauris lacinia maximus pretium. Cras vel est libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non accumsan dolor. Nulla eleifend faucibus elit sit amet consectetur.</p>
             <p>Vestibulum et facilisis ligula. Donec maximus enim non pellentesque aliquam. Nullam hendrerit neque in molestie ultrices. In id libero consectetur, ullamcorper urna et, hendrerit ipsum. Etiam dapibus, augue ut fermentum pulvinar, turpis nisi porta nibh, vel tincidunt elit arcu quis felis. In suscipit elit a luctus pretium. Nullam dictum, mi vel viverra mollis, orci massa pellentesque lectus, in vulputate orci mi et leo. In gravida euismod ligula in tincidunt.</p>

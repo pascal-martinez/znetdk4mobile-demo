@@ -1,4 +1,4 @@
-<div class="w3-content w3-panel w3-theme-l1">
+<div class="w3-content w3-panel w3-theme">
     <h3><i class="fa fa-keyboard-o"></i> Form</h3>
     <p>Here is an example of form with <b>client-side</b> and <b>server-side</b> validation on <b>submit</b>.
         <br><b>Header is automatically hidden on scroll</b> by calling the <code><a href="https://mobile.znetdk.fr/js-api#z4m-jsapi-header-autohideonscroll" target="_blank" rel="noopener">znetdkMobile.header.autoHideOnScroll()</a></code> method.
@@ -58,10 +58,10 @@
         <label><b>Text area</b>
             <textarea class="w3-input w3-margin-bottom w3-border" name="my_textarea" rows="6" placeholder="Text on multiple lines..."></textarea>
         </label>
-        <div class="w3-bar w3-margin-bottom">
-            <button class="info w3-button w3-blue w3-bar-item" type="button"><i class="fa fa-info-circle"></i> Custom information message</button>
-            <button class="warn w3-button w3-yellow w3-bar-item" type="button"><i class="fa fa-warning"></i> Custom warning message</button>
-            <button class="error w3-button w3-red w3-bar-item" type="button"><i class="fa fa-times-circle"></i> Custom error message</button>
+        <div class="w3-bar">
+            <button class="info w3-button w3-blue w3-bar-item w3-margin-bottom" type="button"><i class="fa fa-info-circle"></i> Custom information message</button>
+            <button class="warn w3-button w3-yellow w3-bar-item w3-margin-bottom" type="button"><i class="fa fa-warning"></i> Custom warning message</button>
+            <button class="error w3-button w3-red w3-bar-item w3-margin-bottom" type="button"><i class="fa fa-times-circle"></i> Custom error message</button>
         </div>
         <p class="w3-right" aria-hidden="true"><i class="fa fa-asterisk w3-text-red"></i> Required field</p>
         <!-- SUBMIT -->
@@ -70,15 +70,6 @@
     <div class="w3-padding-48"></div>
 </form>
 <script>
-$('body').on('afterviewdisplay', function (event, viewId) {
-    if (viewId === 'form') {
-        // Banner is auto hidden
-        znetdkMobile.header.autoHideOnScroll(true);
-    } else {
-        // Banner is no longer auto hidden
-        znetdkMobile.header.autoHideOnScroll(false);
-    }
-});
 $('#znetdkm-form-demo button.info').on('click', function(){
     const formObj = z4m.form.make('#znetdkm-form-demo');
     formObj.hideError();

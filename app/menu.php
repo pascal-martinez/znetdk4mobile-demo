@@ -12,9 +12,10 @@ class Menu implements \iMenu {
     static public function initAppMenuItems() {
         // Demo menu items
         \MenuManager::addMenuItem(NULL, 'home', 'Home', 'fa-home');
-        \MenuManager::addMenuItem(NULL, '_themes', 'Themes', 'fa-photo');
-        \MenuManager::addMenuItem('_themes', 'colors', 'Colors', 'fa-paint-brush');
+        \MenuManager::addMenuItem(NULL, '_themes', 'Theming', 'fa-photo');
+        \MenuManager::addMenuItem('_themes', 'colors', 'Color themes', 'fa-paint-brush');
         \MenuManager::addMenuItem('_themes', 'fonts', 'Fonts', 'fa-font');
+        \MenuManager::addMenuItem('_themes', 'extra_colors', 'Extra colors', 'fa-tint');
         \MenuManager::addMenuItem(NULL, 'persons', 'Persons', 'fa-address-card-o');
         \MenuManager::addMenuItem(NULL, '_features', 'Features', 'fa-gift');
         \MenuManager::addMenuItem('_features', 'form', 'Form', 'fa-keyboard-o');

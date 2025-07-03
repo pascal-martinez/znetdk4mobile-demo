@@ -17,7 +17,7 @@ define('LC_HEAD_TITLE', 'Demonstration App');
 //define('LC_HEAD_IMG_LOGO', ZNETDK_APP_URI.'images/logo.png');
 
 /* Footer labels */
-define('LC_FOOTER_LEFT', 'Version 1.1');
+define('LC_FOOTER_LEFT', 'Version 1.2');
 define('LC_FOOTER_CENTER', 'Developed with ZnetDK');
-define('LC_FOOTER_RIGHT', '&copy; 2024');
+define('LC_FOOTER_RIGHT', '&copy; 2025');
 
